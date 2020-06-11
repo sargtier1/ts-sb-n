@@ -1,5 +1,11 @@
+import styled from 'styled-components'
+
 const home = () => {
-    <h1>hello there</h1>
+  return <Title>hello there</Title>
 }
+
+const Title = styled.h1`
+  color: red;
+`
 
 export default home
